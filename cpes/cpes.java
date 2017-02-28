@@ -1,11 +1,17 @@
 package com.atguigu.cpes.bean;
 
-/**
- *  @author 
- */
+
 public class Cert {
     private Integer id;
-    private String name;
+    private String name,address;
+
+    public void setAddress(String address){
+            this.address = address;
+	        }
+		    public String getAddress(){
+		            return this.address;
+			        }
+
 
     public void setId(Integer id){
         this.id = id;
